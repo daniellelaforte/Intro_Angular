@@ -3,4 +3,8 @@
 	height: 50px;
 	background-color: grey;
 	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	border-radius: 5px;
 }
