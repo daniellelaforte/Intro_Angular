@@ -6,16 +6,16 @@
 <link rel="stylesheet" type="text/css" href="main.css">
 	<title></title>
 </head>
-<body ng-controller="HelloController">
+<body ng-controller="MainController">
 <div>
 <div class="button" ng-click="printthis()">Click Me!</div>
-<h1 ng-show="message_visible">Hey how are you.</h1>
-<!-- <p ng-show="message_visible">This is super cool!!  You clicked the button.</p>
+<h1 ng-show="message_visible">{{ bug }}</h1>
+<p ng-show="message_visible">This is super cool!!  You clicked the button.</p>
 <ul ng-show="message_visible">
      <li>this is</li>
      <li>the coolest</li>
      <li>unordered list</li>
-</ul> -->
+</ul>
 
 
 </div>
